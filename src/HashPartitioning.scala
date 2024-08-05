@@ -1,36 +1,6 @@
-package org.apache.spark.sql.catalyst.plans.physical;
-
-import java.lang.invoke.SerializedLambda
-import org.apache.spark.sql.catalyst.InternalRow
-import org.apache.spark.sql.catalyst.expressions.Expression
-import org.apache.spark.sql.catalyst.expressions.ExpressionProjection
-import org.apache.spark.sql.catalyst.expressions.Murmur3Hash
-import org.apache.spark.sql.catalyst.expressions.NamedExpression
-import org.apache.spark.sql.catalyst.expressions.Pmod
-import org.apache.spark.sql.catalyst.expressions.Unevaluable
-import org.apache.spark.sql.catalyst.expressions.codegen.CodegenContext
-import org.apache.spark.sql.catalyst.expressions.codegen.ExprCode
-import org.apache.spark.sql.catalyst.trees.TreeNode
-import org.apache.spark.sql.types.DataType
-import org.apache.spark.sql.types.IntegerType.
-import scala.Function1
-import scala.MatchError
-import scala.None
-import scala.Option
-import scala.Serializable
-import scala.Some
-import scala.Tuple2
-import scala.collection.IndexedSeq
-import scala.collection.IterableLike
-import scala.collection.Iterator
-// since we have `scala.collection.Seq` (imporded by Predef), not `scala.collection.immutable.Seq` we deal with 2.12
-import scala.collection.Seq
-import scala.reflect.ScalaSignature
-import scala.runtime.BoxesRunTime
-import scala.runtime.AbstractFunction2
-
-import scala.collection.Seq;
-import scala.runtime.BoxesRunTime;
+package org.apache.spark.sql.catalyst.plans.physical
+package src
+// since we have `scala.collection.Seq` (imporded by Predef), not `scala.collection.immutable.Seq` we deal with 2.12;
 
 // @ScalaSignature(???)
 // added by scala-compiler, doesn't hold code-related things

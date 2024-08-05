@@ -8,7 +8,7 @@
  * IMPORTANT: Add comments explaining your decisions.
  */
 
-package org.apache.spark.sql.catalyst.plans.physical;
+package org.apache.spark.sql.catalyst.plans.physical.src;
 
 import java.lang.invoke.SerializedLambda;
 import org.apache.spark.sql.catalyst.InternalRow;
